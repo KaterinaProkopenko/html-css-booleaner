@@ -3,11 +3,17 @@ header {
     height: 100px;
     background-color: rgb(97, 152, 233);
     background-image: url(../img/pattern.png);
+    position: relative;
 }
-
 
 h1 {
     font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+main {
+    font-size: 20px;
 }
 
 a {
@@ -16,6 +22,31 @@ a {
 
 h2 {
     color: white;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: rgb(0, 183, 255);
+}
+
+ul {
+    padding: 0;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+.size{
+    width: 25%;
 }
 
 .header-name {
@@ -25,6 +56,10 @@ h2 {
 .subtext {
     font-size: 20px;
     color: gray;
+}
+
+.photo{
+    margin-top: 20px;
 }
 
 .name-photo {
@@ -38,6 +73,17 @@ h2 {
 .interesting {
     width: 240px;
     height: 180px; 
+}
+
+.lightblue {
+    background-color: rgb(171, 241, 232);
+}
+
+#logo {
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
 }
 
 #first-recommendation {
