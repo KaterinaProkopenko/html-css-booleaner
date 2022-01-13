@@ -1,0 +1,40 @@
+header {
+    width: auto;
+    height: 100px;
+    background-color: rgb(97, 152, 233);
+    background-image: url(../img/pattern.png);
+}
+
+
+h1 {
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-name {
+    color: white;
+}
+
+.subtext {
+    font-size: 20px;
+    color: gray;
+}
+
+.name-photo {
+    font-size: 15px;
+}
+
+#header-first {
+    font-size: 20px;
+}
+
+#header-second {
+    font-size: 45px;
+}
+
+#date {
+    font-size: 15px;
+}
