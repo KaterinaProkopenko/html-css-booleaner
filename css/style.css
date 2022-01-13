@@ -14,6 +14,10 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    color: white;
+}
+
 .header-name {
     color: white;
 }
@@ -25,6 +29,25 @@ a {
 
 .name-photo {
     font-size: 15px;
+}
+
+.background-yellow {
+    background-color: yellow;
+}
+
+.interesting {
+    width: 240px;
+    height: 180px; 
+}
+
+#first-recommendation {
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+}
+
+#second-recommendation {
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
 }
 
 #header-first {
