@@ -3,6 +3,7 @@ header {
     height: 100px;
     background-color: rgb(97, 152, 233);
     background-image: url(../img/pattern.png);
+    background-size: 35%;
     position: relative;
 }
 
@@ -20,9 +21,10 @@ a {
     text-decoration: none;
 }
 
-h2 {
+h3 {
     color: white;
     margin-top: 10px;
+    padding: 10px;
 }
 
 table {
@@ -72,7 +74,8 @@ footer {
 
 .interesting {
     width: 240px;
-    height: 180px; 
+    height: 180px;
+    background-size: cover;
 }
 
 .lightblue {
@@ -88,12 +91,10 @@ footer {
 
 #first-recommendation {
     background-image: url(../img/monitor.jpg);
-    background-size: cover;
 }
 
 #second-recommendation {
     background-image: url(../img/graph.jpg);
-    background-size: cover;
 }
 
 #header-first {
